@@ -13,7 +13,7 @@ def fun(num):
         count += 1
         f = f // 10
     return fact_num, count
-         
+
 if __name__ == '__main__':
     n = int(input('Enter a number: '))
     print(f"Number: {n} \t Factorial: {fun(n)[0]} \t No of trailing zeros: {fun(n)[1]}")

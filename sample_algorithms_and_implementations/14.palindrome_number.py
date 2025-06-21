@@ -20,4 +20,3 @@ if __name__ == '__main__':
         print(f"{n} is a Palindrome Number. ")
     else:
         print(f"{n} is not a Palindrome Number. ")
-    

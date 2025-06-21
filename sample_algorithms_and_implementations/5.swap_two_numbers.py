@@ -7,7 +7,7 @@ def fun1(a,b):
     a = b
     b = temp
     print(f"After swapping: a= {a}, b= {b}")
-    
+
 def fun2(a,b):
     """by using add and sub operations"""
     print(f"Before swapping: a= {a}, b= {b}")
@@ -31,15 +31,14 @@ def fun4(a, b):
     b = a ^ b
     a = a ^ b
     print(f"After swapping: a= {a}, b= {b}")
-    
+
 def fun5(a, b):
     """by using single line"""
     print(f"Before swapping: a= {a}, b= {b}")
     a, b = b, a
     print(f"After swapping: a= {a}, b= {b}")
-    
-    
-    
+
+
 if __name__ == "__main__":
     a = int(input("Enter a value:"))
     b = int(input("Enter b value:"))
@@ -58,7 +57,3 @@ if __name__ == "__main__":
     
     print(f"\n{fun5.__doc__}")
     fun5(a, b)
-    
-    
-    
-    

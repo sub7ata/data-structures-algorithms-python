@@ -19,4 +19,3 @@ if __name__ == '__main__':
         k = int(input("Enter number to search: "))
         print(fun1(n, k))
         print(fun2(n, k))
-    

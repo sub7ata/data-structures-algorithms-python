@@ -12,4 +12,3 @@ def fun(num):
 if __name__ == '__main__':
     n = int(input("Enter a number: "))
     print(f"Sum of odd digits: {fun(n)}")
-    

@@ -7,7 +7,7 @@ def fun(num):
         s = s + digit**3
         num = num // 10
     return s
-        
+
 if __name__ ==  "__main__":
     n = int(input("Enter a number: "))
     for i in range(n):

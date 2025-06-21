@@ -10,7 +10,7 @@ def counting_sort(l,pos):
         
     for i in range(1,10):
         count[i] = count[i] + count[i-1]
-            
+        
     i = len(l)-1
     while i>=0:
         index = (l[i]//pos)%10

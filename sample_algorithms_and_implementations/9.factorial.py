@@ -27,4 +27,4 @@ if __name__ == '__main__':
     print(fun1(n))
     print(fun2(n))
     print(fun3(n))
-    
+

@@ -19,5 +19,3 @@ if __name__ == '__main__':
     print(fun1(a, b))
     print(fun2(a, b))
     print(fun3(a, b))
-    
-    
