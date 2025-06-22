@@ -1,0 +1,1 @@
+"""WAP to merge the characters of two strings into a single string by taking characters alternately."""
