@@ -49,7 +49,6 @@ print(s[7])
 
 """Example: 2"""
 s = "wxyz"
-
 index = 0
 while index < len(s):
     print(f'index: {index} character: {s[index]}')
@@ -58,7 +57,6 @@ while index < len(s):
 
 """Example: 3"""
 s = "wxyz"
-
 index = -1
 while index >= - len(s):
     print(f'index: {index} character: {s[index]}')
@@ -67,7 +65,6 @@ while index >= - len(s):
 """for each loop"""
 """Example: """
 s = "incident"
-
 print(s)
 for i in s:
     print(i)
