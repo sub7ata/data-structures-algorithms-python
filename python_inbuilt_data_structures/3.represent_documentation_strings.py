@@ -6,7 +6,7 @@ def fun(a, b):
 if __name__ == '__main__':
     fun(10, 20)
     print(fun.__doc__)
-    
+
 
 """Example: 2"""
 import math
