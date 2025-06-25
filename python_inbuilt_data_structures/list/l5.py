@@ -22,7 +22,7 @@ set2 = set(list2)
 list3 = list(set1.symmetric_difference(set2))
 print(list3)
 
-https://pynative.com/useful-python-tips-and-tricks-every-programmer-should-know/
+# https://pynative.com/useful-python-tips-and-tricks-every-programmer-should-know/
 
 
 str1 = "SBAA"
