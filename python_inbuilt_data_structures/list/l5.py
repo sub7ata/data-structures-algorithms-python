@@ -78,3 +78,57 @@ b = 'URT'
 
 lst = list(map(lambda d: (d[0] or '') + (d[1] or ''), zip_longest(a,b)))
 print("".join(lst))
+
+
+# in:a3z3b4 
+# out:aaabbbbzz
+s = 'a3z3b4'
+ch = ''
+chs = []
+for idx, itm in enumerate(s):
+    if itm.isalpha():
+        ch = itm
+    else:
+        chs.append(ch*int(itm))
+chs.sort()
+print(''.join(chs))
+
+s = 'aaaabbbccz'
+
+prev_char = s[0]
+count = 1
+result = ''
+
+for char in s[1:]:
+    if char == prev_char:
+        count += 1
+    else:
+        result += f'{count}{prev_char}'
+        prev_char = char
+        count = 1
+
+result += f'{count}{prev_char}'
+
+print(result)
+
+
+a = 'a4k3b2'
+# o = 'aekdbc'
+vlu = ''
+for ii in a:
+    if ii.isalpha():
+        vlu += ii
+    else:
+        l = ord('a')
+        vlu += f"{chr(l+int(ii))}"
+print(vlu)
+
+
+# in: 'aaabbbccczzzzffffdddqqqqqqqqqqsstuv'
+s = 'aaabbbccczzzzffffdddqqqqqqqqqqsstuv'
+lst = []
+for itm in s:
+    if itm not in lst:
+        lst.append(itm)
+# print(lst)
+print(''.join(lst))
