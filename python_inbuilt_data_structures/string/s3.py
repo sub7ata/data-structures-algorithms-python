@@ -1,5 +1,5 @@
 """WAP to reverse internal content of each word"""
-"""Ex: input: 'data structure and algorithm' output: ''"""
+"""Ex: input: 'data structure and algorithm' output: 'atad erutcurts dna mhtirogla'"""
 
 class StringReverser:
     @staticmethod

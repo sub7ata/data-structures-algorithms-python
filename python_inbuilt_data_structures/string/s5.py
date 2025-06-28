@@ -1,4 +1,13 @@
 """WAP to print the characters present at even and odd indexes separately for the given string."""
+"""
+Enter string: python
+Result:
+Characters in even indexs: pto
+Characters in odd indexs: yhn
+Result:
+Characters in even indexs: pto
+Characters in odd indexs: yhn
+"""
 
 class StringSeparater:
     @staticmethod
@@ -14,9 +23,9 @@ class StringSeparater:
 
     @staticmethod
     def even_odd_separater1(strng):
-        f"Characters in even indexs: {strng[::-1]}\nCharacters in odd indexs: {strng[::-2]}"
+        return f"Characters in even indexs: {strng[::2]}\nCharacters in odd indexs: {strng[1::2]}"
 
 if __name__ == '__main__':
     input_data = input("Enter string: ")
-    print(f"Result:\n{StringSeparater.even_odd_separater(input_data)}")
-    print(f"Result:\n{StringSeparater.even_odd_separater(input_data)}")
+    print(f"Result1:\n{StringSeparater.even_odd_separater(input_data)}")
+    print(f"Result2:\n{StringSeparater.even_odd_separater1(input_data)}")
